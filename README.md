@@ -100,6 +100,8 @@ Rather than forcing the user to interpret the data (exploratory visualization), 
 
 - **The Bayesian Slopegraph** — The impact of the Gamma-Poisson update isn't explained with text; it is *shown* visually. A slopegraph directly connects the base Poisson prediction to the updated Bayesian Posterior, instantly highlighting exactly how much historical head-to-head data shifted the odds.
 
+![Samsunspor vs Kayserispor — Dashboard Preview](preview/samsunspor_kayseripor.png)
+
 ---
 
 > This pipeline doesn't just calculate numbers — it engineers features, respects the tactical realities of the sport, learns from history, and tells a compelling visual story.
