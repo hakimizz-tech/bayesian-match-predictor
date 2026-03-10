@@ -1,3 +1,6 @@
+# DEPRECATED: This standalone script is deprecated.
+# Please use the pipeline instead: python -m src.pipeline.run_pipeline
+
 import pandas as pd
 import numpy as np
 from scipy.stats import poisson
@@ -36,5 +39,5 @@ df = pd.read_csv("../data/turkey_form_and_poisson_features.csv")
 df[['P(h)', 'P(d)', 'P(A)']] = df.apply(calculate_match_probabilities, axis=1)
 
 # Save the dataset with the new overall probabilities
-df.to_csv("turkey_overall_probabilities.csv", index=False)
+df.to_csv("../data/turkey_overall_probabilities.csv", index=False)
 print("Overall match probabilities calculated and saved to turkey_overall_probabilities.csv")
